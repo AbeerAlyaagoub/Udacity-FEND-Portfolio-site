@@ -1,0 +1,92 @@
+/* main tags */
+
+* {
+  background: #ffffff;
+}
+
+body {
+	color: #2d3c49;
+  background-color: #fff;
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 100px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+}
+
+h2 { 
+  font-weight: 100;
+  text-align: center;
+  color: #2d3c49;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 100px;
+  font-family: "Lato", sans-serif;
+}
+
+
+
+/* == IDs == */
+
+#logo {
+  width: 30px;
+  height: 30px;
+  margin-top: 45px;
+}
+
+#main-image {
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+
+/*== Classes ==*/
+
+.logo-float-left {
+  float: left;
+}
+
+.name-float-right{
+  float: right;
+}
+
+
+hr.H-line {
+  border-top: 1.5px solid #8c8b8b;
+}
+
+.featured-section {
+  color: #7d97ad;
+  width: 100%;
+  flex: auto;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+ 
+.work-1,
+.work-2,
+.work-3{
+  height: 200px;
+  width: 300px;
+}
+
+.img-info {
+  font-size: 18px;
+  font-weight: 100px;
+  text-align: center;
+}
+
+.title-info {
+  text-align: center;
+}
